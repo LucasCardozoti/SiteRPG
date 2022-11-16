@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;   /*colocar uma imagem*/
+}
+
+body {
+    width: 1900px;
+    background-color: rgb(0, 0, 0);
+}
+
+#site {
+    width: 1000px;
+    background-color: floralwhite;
+    margin-left: 25%;
+}
+
+#StatusForca {
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 25px;
+    /* border: solid; */
+}
+
+#StatusVelocidade {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#StatusPrecisao {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#StatusConstituicao {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#StatusInteligencia {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 25px;
+    /* border: solid; */
+    
+}
+
+.SubStatus {
+    text-align: center;
+    height: 106px;
+    width: 86px;
+    margin-top: 10px;
+    background: transparent;
+    font-size: x-large;
+    /* border: solid; */
+    display: inline-block;
+    
+}
+
+#Informacoes {
+    height: 50px;
+    width: 400px;
+    /* border: solid;   */
+    display: inline-block;
+    margin-left: 250px;
+    
+    
+   
+}
